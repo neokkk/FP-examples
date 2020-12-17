@@ -11,9 +11,3 @@ export default function _reduce<T>(list: T[], func: (T, Q) => any, memo?: T) {
 
     return memo;
 }
-
-const sampleArr = [1, 2, 3, 4];
-
-console.log(
-    _reduce(sampleArr, (a, b) => a + b)
-);
